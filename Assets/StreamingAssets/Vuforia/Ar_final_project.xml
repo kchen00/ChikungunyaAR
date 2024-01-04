@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="action" size="0.092075 0.215539" />
+    <ImageTarget name="mosquito" size="0.092075 0.215539" />
+    <ImageTarget name="preventive" size="0.092075 0.215539" />
+    <ImageTarget name="symptom" size="0.092075 0.210749" />
+    <ImageTarget name="transmission" size="0.092075 0.210749" />
+    <ImageTarget name="virus" size="0.092075 0.210749" />
+  </Tracking>
+</QCARConfig>
