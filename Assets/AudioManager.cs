@@ -4,9 +4,25 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    public AudioSource currentAudioSource;
+    private AudioSource currentAudioSource;
 
-    public void stopCurrentAudioSource() {
-        currentAudioSource.Stop();
+    public void setAudioSource(AudioSource newAudio)
+    {
+        // check if there is audio source or not
+        // if yes, then stop the audio
+        stopAudio();
+
+        // then set the current audio source to the new audio
+        currentAudioSource = newAudio;
+    }
+
+    public void stopAudio()
+    {
+        // check if there is audio source or not
+        // if yes, then stop the audio
+        if (currentAudioSource)
+        {
+            currentAudioSource.Stop();
+        }
     }
 }
