@@ -1,7 +1,6 @@
-﻿using System.Collections;
+﻿﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SocialPlatforms.GameCenter;
 using Vuforia;
 
 // detect the marker then play the audio
